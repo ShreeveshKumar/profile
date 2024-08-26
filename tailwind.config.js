@@ -7,6 +7,12 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        "custom-black": "#0077B5", // Custom blue color
+        "custom-green": "#10b981", // Custom green color
+        "custom-red": "#ef4444", // Custom red color
+        // Add more custom colors here
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
